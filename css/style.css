@@ -2,6 +2,7 @@ body{margin-top: 55px;}
 .pad-top-10{padding-top: 10px;}
 .pad-top-20{padding-top: 20px;}
 .pad-top-30{padding-top: 30px;}
+.pad-top-80{padding-top: 80px;}
 
 .top-bar{
 	background-color:#ca2129;
@@ -28,7 +29,9 @@ li.login a:hover{
 	color: #000 !important;
 	padding-right: 22px;
 	padding-left: 22px;
-
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #000000;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
 	background-color:#ccc;
