@@ -19,6 +19,13 @@
     <!-- Bootstrap main js -->
     <script src="js/bootstrap.js"></script>
 
+    <script>
+    $(document).ready(function(){
+      $('#tooltip1').tooltip();
+      $('#tooltip2').tooltip();
+    });
+    </script>
+
   </head>
   <body> 
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -85,7 +92,7 @@
               <span class="glyphicon glyphicon-book"></span>
                 Learn...
             </h3>
-            <p>voluptua prodesset nec. Tale facilisi duo ex, usu at nulla decore melius. Vocibus vivendum imperdiet ad ius.An illud voluptua prodesset nec</p>
+            <p>voluptua prodesset nec. Tale facilisi duo ex, <a href="#" id="tooltip1" data-toggle="tooltip" title="This is first tooltip">usu at nulla</a> decore melius. Vocibus vivendum imperdiet ad ius.An illud voluptua prodesset nec</p>
             <a class="readmore" href="#">Read More</a>
           </div>  
         </div>
@@ -95,7 +102,7 @@
               <span class="glyphicon glyphicon-eye-open"></span>
                 Create...
             </h3>
-            <p>voluptua prodesset nec. Tale facilisi duo ex, usu at nulla decore melius. Vocibus vivendum imperdiet ad ius.An illud voluptua prodesset nec</p>
+            <p>voluptua prodesset nec. Tale facilisi duo ex, <a href="#" id="tooltip2" data-toggle="tooltip" title="This is second tooltip">usu at nulla </a> decore melius. Vocibus vivendum imperdiet ad ius.An illud voluptua prodesset nec</p>
             <a class="readmore" href="#">Read More</a> 
           </div>  
         </div>
