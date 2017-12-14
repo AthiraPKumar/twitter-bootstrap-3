@@ -174,4 +174,7 @@ footer{
 	font-weight: bold;
 	background-color: #ccc;
 }
+.tab-pane{
+	padding-top: 10px;
+}
 
