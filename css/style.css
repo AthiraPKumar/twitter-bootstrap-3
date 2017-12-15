@@ -110,9 +110,12 @@ li.register a:hover{
 .media-body{
 	font-size: 110%;
 }
-.panel .panel-heading{
+.panel a:hover, .panel a:focus{
+	text-decoration: none;
+}
+.panel .panel-blue-heading{
 	background-color:#2e98cc; 
-	color: #fff;
+	color: #ffffff;
 }
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
 	background: #ca2129;
@@ -130,7 +133,6 @@ li.register a:hover{
     padding:3px;
     border-radius:5px;
 }
-
 #blog a.readmore{
     background:#2b8cbc;
     padding:10px 15px;
@@ -140,11 +142,9 @@ li.register a:hover{
     margin-top:20px !important;
     border-radius:5px;
 }
-
 #blog a.readmore:hover{
     background:#20749d;
 }
-
 small{
     padding:5px;
     background:#f4f4f4;
@@ -163,18 +163,21 @@ small{
 .greywell{
 	background:#f4f4f4; 
 }
+.well img{
+	width: 100%;
+}
 #tooltip1,#tooltip2{
 	color: #ffffff;
 	border-bottom: 1px dotted #fff;
 	text-decoration: none;
+}
+.tab-pane{
+	padding-top: 10px;
 }
 footer{
 	text-align: center;
 	padding: 30px 0;
 	font-weight: bold;
 	background-color: #ccc;
-}
-.tab-pane{
-	padding-top: 10px;
 }
 
