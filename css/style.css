@@ -40,6 +40,7 @@ li.login a:hover{
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
 	background-color:#ccc;
 }
+
 li.register a{
 	background-color:#2f98cc;
 	margin-bottom: -10px !important;
@@ -180,4 +181,16 @@ footer{
 	font-weight: bold;
 	background-color: #ccc;
 }
+/* Media Queries */
+@media only screen and (min-width:768px) and (max-width:980px){
+
+}
+@media only screen and (min-width:569px) and (max-width:767px){
+	
+}
+
+@media only screen and (min-width:240px) and (max-width:568px){
+	
+}
+
 
